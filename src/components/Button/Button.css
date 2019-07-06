@@ -1,0 +1,19 @@
+.btn {
+  font-size: calc(15px + 3vmin);
+  font-weight: bold;
+  width: 25vw;
+  height: 25vw;
+  border: 3px solid rgb(3, 83, 3);
+  transition: filter 0.2s linear, -webkit-filter 0.2s linear;
+}
+.btn:disabled {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: filter 0.2s linear, -webkit-filter 0.2s linear;
+}
+@media (min-width: 1024px) {
+  .btn {
+    width: 12.5vmin;
+    height: 12.5vmin;
+  }
+}

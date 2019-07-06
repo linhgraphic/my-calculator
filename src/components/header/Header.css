@@ -1,0 +1,17 @@
+.header {
+  font-size: calc(15px + 3vmin);
+  display: flex;
+  width: 98vmin;
+  height: 20vh;
+  border: 1vmin solid green;
+  box-sizing: border-box;
+}
+.header {
+  word-break: break-word;
+}
+@media (min-width: 1024px) {
+  .header {
+    width: 50vmin;
+    margin: 0 auto;
+  }
+}
